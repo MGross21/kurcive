@@ -17,8 +17,6 @@
 bin/
 gen/
 out/
-#  Uncomment the following line in case you need and you don't have the release build type files in your app
-# release/
 
 # Gradle files
 .gradle/
@@ -39,9 +37,15 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ
+# IntelliJ IDEA
 *.iml
 .idea/
+# Exclude specific IntelliJ IDEA files
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
 
 # For Mac users
 .DS_Store
@@ -54,9 +58,6 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 .cxx/
-
-# Google Services (e.g. APIs or Firebase)
-# google-services.json
 
 # Freeline
 freeline.py
@@ -78,4 +79,3 @@ lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
-# lint/reports/
