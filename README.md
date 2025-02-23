@@ -1,1 +1,4 @@
-Kotlin Development Code for FTC Controller Platform
+# KURCIVE
+_Pronounced "Cursive"_
+
+ (Currently Under Development)
