@@ -4,7 +4,7 @@ _Pronounced "Cursive"_
 > [!Warning]
 > Currently Under Development
 
-## Modularity Design
+## Modular Design
 
 ```mermaid
 graph TD
