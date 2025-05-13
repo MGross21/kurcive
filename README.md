@@ -6,9 +6,10 @@ _Pronounced "Cursive"_
 
 ## Modular Design
 
+The following diagram presents a simplified system architecture overview, emphasizing core modular components and their data/control flow relationships.
+
 ```mermaid
 graph TD
-    MathUtils[Math Utils]
     Motors[Motors]
     Servos[Servos]
 
@@ -22,16 +23,16 @@ graph TD
     Virtualization[Virtualization]
     OpModes[OpModes]
 
-    MathUtils --> Pathing
     Pathing --> Motion
 
     Motors --> Base
     Motors --> Slides
-    Servos --> Base
+    Motors --> Arms
+
     Servos --> Slides
+    Servos --> Arms
 
     Base --> Motion
-    Slides --> Arms
     Arms --> Motion
 
     Motion --> Bot
